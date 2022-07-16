@@ -1,0 +1,7 @@
+---
+- name: configuration d'acces au vlan
+  connection: network_cli
+  gather_facts: true
+  hosts: access
+  roles:
+    - vlan
