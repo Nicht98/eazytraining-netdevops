@@ -1,8 +1,0 @@
----
-- name: configuration ip des interfaces fa0/1 des switchs et backups des configs
-  connection: network_cli
-  gather_facts: true
-  hosts: distribution
-  roles:
-    - config-ip
-    - backup
