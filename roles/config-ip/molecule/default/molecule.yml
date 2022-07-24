@@ -4,7 +4,8 @@ dependency:
 driver:
   name: delegated
 lint: |
-
+  yamllint
+  ansible-lint
 platforms:
   - name: sw1
     groups:
